@@ -1,6 +1,6 @@
 {
   "name": "get-mouse-color-gl",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "description": "Getting mouse position color using regl",
   "main": "dist/index.js",
   "scripts": {
