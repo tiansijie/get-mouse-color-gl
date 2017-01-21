@@ -1,7 +1,7 @@
 let fbo = null;
 function getMouseColorGL(regl, x, y, contents) {
-	const width = regl._gl.canvas.clientWidth;
-	const height = regl._gl.canvas.clientHeight;
+  const width = regl._gl.canvas.clientWidth;
+  const height = regl._gl.canvas.clientHeight;
   if (!fbo) {
     fbo = regl.framebuffer({
       width,
