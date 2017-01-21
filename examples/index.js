@@ -46,9 +46,8 @@ regl.frame(() => {
 });
 
 function onMouseMove(e) {
-  readPixelAt(regl, e.clientX, e.clientY, [
+  const result = readPixelAt(regl, e.clientX, e.clientY, [
     () => rectangle(rectSetup)
-  ]).then(result => {
-    console.log("result", result);
-  });
+  ]);
+	console.log("result", result);
 }

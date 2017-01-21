@@ -5,9 +5,9 @@ A module that let you pass in your mouse position and get the color of your posi
 ### usage
 `npm install get-mouse-color-gl`
 
-#### readPixelAt(regl, mouseX, mouseY, objectArray) => Promise
+#### readPixelAt(regl, mouseX, mouseY, objectArray) => Array
 
-return an promise for your mouse color in rgb value in an array.
+return an array for your mouse color in rgba value.
 
 * [regl] {object} - the Regl instance
 * [mouseX] {number} - x position of the mouse
